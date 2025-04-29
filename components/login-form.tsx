@@ -21,7 +21,7 @@ export function LoginForm({
     e.preventDefault();
     try {
       const data = {
-        username: email,
+        email: email,
         password: password,
       };
       await axios
